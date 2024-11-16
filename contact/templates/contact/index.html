@@ -1,0 +1,777 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allan Auka</title>
+    <!-- Font Awesome (no change) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts (no change) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- Link to static CSS files -->
+    <link rel="stylesheet" href="{% static 'style/style.css' %}">
+    <link rel="stylesheet" href="{% static 'style/responsive.css' %}">
+</head>
+
+
+<body>
+    <a href="#headersection" class="icons-top">
+
+            <i class="fa-solid fa-arrow-up"></i>
+
+      </a>
+    <main>
+
+
+        <div class="myresumebox">
+            <div class="buttonswork">
+                <a href="myResume/Allan Auka.pdf" download="">
+                    <button>Download myResume</button>
+                </a>
+
+                <button class="closepfd"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <iframe width="750px" height="770px" id="myresumeid" src="myResume/Allan Auka.pdf" frameborder="0"></iframe>
+
+        </div>
+
+        <header id="headersection">
+            <div class="logo">
+                <h1>Allan Auka</h1>
+            </div>
+            <nav class="nav">
+                <i class="fa-solid fa-arrow-right close-navbar"></i>
+                <ul class="nav-menu">
+                    <li class="nav-list">
+                        <a href="#aboutsection" class="nav-link">about </a>
+                    </li>
+
+                    <li class="nav-list">
+                        <a href="#myprojects" class="nav-link">projects </a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#skillsection" class="nav-link">myskills </a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#servicesection" class="nav-link">service </a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#contactsection" class="nav-link">contact </a>
+                    </li>
+                </ul>
+
+                <div class="dark-light-mode nav-dark-light-mode">
+
+                    <i class="fa-regular fa-moon lightmodes"></i>
+                    <i class="fa-regular fa-sun darkmodes"></i>
+                </div>
+            </nav>
+            <div class="signup-btn">
+                <!-- <button>signup</button> -->
+                <div class="hamburger">
+                    <i class="fa-solid fa-sliders"></i>
+                </div>
+                <div class="dark-light-mode">
+                    <i class="fa-regular fa-moon lightmodes big-screen"></i>
+                    <i class="fa-regular fa-sun darkmodes big-screen"></i>
+                </div>
+            </div>
+        </header>
+        <section class="hero-section" id="herosection">
+            <div class="left">
+                <div class="left-text">
+                    <h2>let's work <br> together to create wonders</h2>
+                </div>
+                <div class="boxesss">
+                    <div class="left-para">
+                        <p> A visionary creative, crafting captivating wonders through art and design . Adept at
+                            turning imagination into extraordinary reality</p>
+                    </div>
+
+                    <div class="btn-box">
+                        <button>let's talk</button>
+                        <button id="myresumeopen">my Resume</button>
+                    </div>
+                    <div class="total-static">
+                        <div class="t-st">
+                            <h3>1+</h3>
+                            <p>years experience</p>
+                        </div>
+                        <div class="t-st">
+                            <h3>5+</h3>
+                            <p>project success</p>
+                        </div>
+                        <div class="t-st">
+                            <h3>100%</h3>
+                            <p>satisfied rate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="image-box">
+                    <img src="images/bg.png" alt="">
+                </div>
+                <div class="extra-box">
+                    <div class="bordered"></div>
+                    <div class="bordered"></div>
+                </div>
+                <div class="dessss">
+                    <div class="dis-skill">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>webapp Developer</p>
+                    </div>
+                    <div class="dis-skill">
+                        <i class="fa-solid fa-mobile"></i>
+                        <p>mobile app developer</p>
+                    </div>
+                    <div class="dis-skill">
+                        <i class="fa-solid fa-pen-nib"></i>
+                        <p>graphic designer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-section" id="aboutsection">
+            <h2 class="title_text">About Me</h2>
+            <div class="st-container">
+
+                <div class="about-left">
+                    <div class="about-btn">
+
+                        <a href="https://github.com/codewithsamir" target="_blank"><button> <i class="fa-brands fa-github"></i> <span>GitHub</span></button></a>
+                        <a href="https://www.instagram.com/teamofsamir" target="_blank"><button><i class="fa-brands fa-instagram"></i> <span>Instagram</span></button></a>
+                        <a href="https://www.facebook.com/profile.php?id=100072162905355&mibextid=ZbWKwL" target="_blank"><button><i class="fa-brands fa-facebook"></i> <span>Facebook</span></button></a>
+                        <a href="https://www.youtube.com/@codewithsamir" target="_blank"><button><i class="fa-brands fa-youtube"></i> <span>YouTube</span></button></a>
+                        <a href="https://www.linkedin.com/in/samir-rain-0467b7259/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><button><i class="fa-brands fa-linkedin"></i> <span>LinkedIn</span></button></a>
+
+                    </div>
+                    <!-- <img src="images/about-img.jpg" alt="Designed by Freepik"> -->
+                </div>
+                <div class="about-right">
+                    <h2>I'm <span>Allan Auka</span>, a <span class="sm">Django developer & Cyber Enthusiast</span></h2>
+<p>Welcome to my corner of the web! I am a passionate web developer, graphic designer, and mobile
+                        app developer with a flair for creating visually stunning and highly functional digital
+                        experiences. With a strong background in various technologies and design principles, I strive to
+                        bring innovative solutions to life. Whether you need a cutting-edge website, a captivating
+                        graphic design, or a user-friendly mobile app, I am here to turn your ideas into reality. Let's
+                        create something amazing together!</p>
+                    <button>About more</button>
+
+                </div>
+                <div class="email-show">
+                    <div class="line"></div>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=codewithsmair@gmail.com" target="_blank"><p>allanaukao@gmail.com</p></a>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+
+
+
+        </section>
+        <section class="education-section">
+            <!-- form here edcuation content design  -->
+            <h2 class="title_text">my education</h2>
+            <div class="education-container">
+                <!-- <div class="myimagestand"></div> -->
+                <div class="ed-box">
+                    <div class="ed-image">
+                        <img src="images/school.jpg" alt="">
+                    </div>
+                    <div class="ed-content">
+                        <div class="name-ed">Drive-In Primary School</div>
+                        <div class="date-ed">2014-12-12</div>
+                        <div class="institution-ed">Completed 8th Grade</div>
+                    </div>
+                </div>
+                <div class="ed-box">
+                    <div class="ed-image">
+                        <img src="images/college.jpg" alt="">
+                    </div>
+                    <div class="ed-content">
+                        <div class="name-ed">Ambira High School</div>
+                        <div class="date-ed">2018-12-12</div>
+                        <div class="institution-ed">Completed 12th Grade</div>
+                    </div>
+                </div>
+                <div class="ed-box">
+                    <div class="ed-image">
+                        <img src="images/university.jpg" alt="">
+                    </div>
+                    <div class="ed-content">
+                        <div class="name-ed">University of Mombasa</div>
+                        <div class="date-ed">Completed 2023</div>
+                        <div class="institution-ed">Bachelor's Degree</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- form here skills content design  -->
+        </section>
+        <section class="skills-sections" id="skillsection">
+            <h2 class="title_text">my skills</h2>
+
+            <div class="sk-container">
+                <div class="left-sk">
+                    <div class="sk-box">
+                        <div class="skill-box">
+                            <div class="skill-logo">
+                                <img src="assets/icons8-html-100.png" alt="">
+                            </div>
+                            <div class="sk-name">
+                                html
+                            </div>
+                            <div class="dashed-box">
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+
+                                <div class="circarshape"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="sk-box">
+                        <div class="skill-box">
+                            <div class="skill-logo">
+                                <img src="assets/icons8-html-100.png" alt="">
+                            </div>
+                            <div class="sk-name">
+                                css
+                            </div>
+                            <div class="dashed-box">
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+
+                                <div class="circarshape"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="sk-box">
+                        <div class="skill-box">
+                            <div class="skill-logo">
+                                <img src="assets/icons8-html-100.png" alt="">
+                            </div>
+                            <div class="sk-name">
+                                javascript
+                            </div>
+                            <div class="dashed-box">
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+
+                                <div class="circarshape"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="sk-box">
+                        <div class="skill-box">
+                            <div class="skill-logo">
+                                <img src="assets/icons8-html-100.png" alt="">
+                            </div>
+                            <div class="sk-name">
+                                bootstrap
+                            </div>
+                            <div class="dashed-box">
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+
+                                <div class="circarshape"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="sk-box">
+                        <div class="skill-box">
+                            <div class="skill-logo">
+                                <img src="assets/icons8-html-100.png" alt="">
+                            </div>
+                            <div class="sk-name">
+                                tailwind
+                            </div>
+                            <div class="dashed-box">
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+
+                                <div class="circarshape"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="center-sk">
+                    <!-- <img src="images/skills.png" alt=""> -->
+                </div>
+                <div class="right-sk">
+                    <div class="sk-box">
+                        <div class="skill-box">
+                            <div class="skill-logo">
+                                <img src="assets/icons8-html-100.png" alt="">
+                            </div>
+                            <div class="sk-name">
+                                React js
+                            </div>
+                            <div class="dashed-box">
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+
+                                <div class="circarshape"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="sk-box">
+                        <div class="skill-box">
+                            <div class="skill-logo">
+                                <img src="assets/icons8-html-100.png" alt="">
+                            </div>
+                            <div class="sk-name">
+                                Next js
+                            </div>
+                            <div class="dashed-box">
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+
+                                <div class="circarshape"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="sk-box">
+                        <div class="skill-box">
+                            <div class="skill-logo">
+                                <img src="assets/icons8-html-100.png" alt="">
+                            </div>
+                            <div class="sk-name">
+                                Meterial UI
+                            </div>
+                            <div class="dashed-box">
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+
+                                <div class="circarshape"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="sk-box">
+                        <div class="skill-box">
+                            <div class="skill-logo">
+                                <img src="assets/icons8-html-100.png" alt="">
+                            </div>
+                            <div class="sk-name">
+                                Mongo DB
+                            </div>
+                            <div class="dashed-box">
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+
+                                <div class="circarshape"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="sk-box">
+                        <div class="skill-box">
+                            <div class="skill-logo">
+                                <img src="assets/icons8-html-100.png" alt="">
+                            </div>
+                            <div class="sk-name">
+                                Django
+                            </div>
+                            <div class="dashed-box">
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+                                <div class="dashed"></div>
+
+                                <div class="circarshape"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+        <section class="experience-section">
+            <h2 class="title_text">Experience</h2>
+
+            <div class="experience-container">
+
+                <div class="exp-box">
+                    <div class="circle-dot"></div>
+                    <div class="date">2024 Jan - Present</div>
+                    <h2>Co-Founder & Lead Developer at Digineptronic</h2>
+                    <p>Founded and led an R&D-based company focusing on developing web applications for small and medium businesses. Successfully managed and delivered multiple projects, including school websites, eCommerce platforms, and result management systems.</p>
+                </div>
+
+                <div class="exp-box">
+                    <div class="circle-dot"></div>
+                    <div class="date">2024 Feb - Present</div>
+                    <h2>School Websites & Result Management Systems</h2>
+                    <p>Developed and deployed comprehensive web solutions for educational institutions, enhancing their digital presence. Technologies used: Django, React.js, Tailwind CSS, MySQL.</p>
+                </div>
+
+                <div class="exp-box">
+                    <div class="circle-dot"></div>
+                    <div class="date">2024 April - Present</div>
+                    <h2>E-commerce Website Development (In Progress)</h2>
+                    <p>Currently developing an eCommerce platform utilizing Next.js, Tailwind CSS, Material UI, and Django. The project is focused on creating a scalable and efficient online shopping experience for small businesses.</p>
+                </div>
+
+                <div class="exp-box">
+                    <div class="circle-dot"></div>
+                    <div class="date">2024 April - Present</div>
+                    <h2>Company Website & Blog Development</h2>
+                    <p>Designed and developed the official website for Digineptronic, along with a blog platform to share insights and tutorials. Technologies used: HTML, CSS, JavaScript, React.js, Next.js, Tailwind CSS, MongoDB.</p>
+                </div>
+
+                <div class="exp-box">
+                    <div class="circle-dot"></div>
+                    <div class="date">2024 May - Present</div>
+                    <h2>Team Leadership & Project Management</h2>
+                    <p>Oversaw project management and led a team of developers and interns, ensuring timely delivery and quality of projects. Utilized Git, GitHub, and Agile methodologies for efficient collaboration.</p>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="myprojects" id="myprojects">
+            <h2 class="title_text">my projects</h2>
+
+            <div class="myprojects-container">
+
+                <div class="mypro-oneline">
+                    <div class="mypro-box">
+                        <div class="overlay"></div>
+                        <div class="overlay-2">
+                            <a href="">
+                                <div class="source-code ov2">
+                                    <i class="fa-solid fa-download"></i>
+                                    <p>source code</p>
+                                </div>
+                            </a>
+
+                            <a href="">
+                                <div class="viewproject ov2">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <p>view project</p>
+                                </div>
+                            </a>
+
+                            <a href="">
+                                <div class="video-link ov2">
+                                    <i class="fa-solid fa-video"></i>
+                                    <p>watch video</p>
+                                </div>
+                            </a>
+
+
+                        </div>
+                        <img src="images/fiverclone.png" alt="">
+                        <div class="info">
+                            <h3 class="pro-name">
+                                fiver website Clone
+
+                            </h3>
+                            <div class="view-icon">
+                                <i class="fa-solid fa-arrow-right"></i>
+                                <p>view</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="mypro-box">
+                        <div class="overlay"></div>
+                        <div class="overlay-2">
+                            <a href="">
+                                <div class="source-code ov2">
+                                    <i class="fa-solid fa-download"></i>
+                                    <p>source code</p>
+                                </div>
+                            </a>
+
+                            <a href="">
+                                <div class="viewproject ov2">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <p>view project</p>
+                                </div>
+                            </a>
+
+                            <a href="">
+                                <div class="video-link ov2">
+                                    <i class="fa-solid fa-video"></i>
+                                    <p>watch video</p>
+                                </div>
+                            </a>
+
+
+                        </div>
+                        <img src="images/connect-4-game.jpg" alt="">
+                        <div class="info">
+                            <h3 class="pro-name">
+                                connect four game
+
+                            </h3>
+                            <div class="view-icon">
+                                <i class="fa-solid fa-arrow-right"></i>
+                                <p>view</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+                <div class="mypro-oneline">
+                    <div class="mypro-box">
+                        <div class="overlay"></div>
+                        <div class="overlay-2">
+                            <a href="">
+                                <div class="source-code ov2">
+                                    <i class="fa-solid fa-download"></i>
+                                    <p>source code</p>
+                                </div>
+                            </a>
+
+                            <a href="">
+                                <div class="viewproject ov2">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <p>view project</p>
+                                </div>
+                            </a>
+
+                            <a href="">
+                                <div class="video-link ov2">
+                                    <i class="fa-solid fa-video"></i>
+                                    <p>watch video</p>
+                                </div>
+                            </a>
+
+
+                        </div>
+                        <img src="images/thumbnail_guess-the-no.jpg" alt="">
+                        <div class="info">
+                            <h3 class="pro-name">
+                                Number Guess Game
+
+                            </h3>
+                            <div class="view-icon">
+                                <i class="fa-solid fa-arrow-right"></i>
+                                <p>view</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="mypro-box">
+                        <div class="overlay"></div>
+                        <div class="overlay-2">
+                            <a href="">
+                                <div class="source-code ov2">
+                                    <i class="fa-solid fa-download"></i>
+                                    <p>source code</p>
+                                </div>
+                            </a>
+
+                            <a href="">
+                                <div class="viewproject ov2">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <p>view project</p>
+                                </div>
+                            </a>
+
+                            <a href="">
+                                <div class="video-link ov2">
+                                    <i class="fa-solid fa-video"></i>
+                                    <p>watch video</p>
+                                </div>
+                            </a>
+
+
+                        </div>
+                        <img src="images/amazonclone.png" alt="">
+                        <div class="info">
+                            <h3 class="pro-name">
+                                Amazon Website Clone
+
+                            </h3>
+                            <div class="view-icon">
+                                <i class="fa-solid fa-arrow-right"></i>
+                                <p>view</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="service-section" id="servicesection">
+            <h2 class="title_text">my service <i class="fa-solid fa-greater-than"></i><i
+                    class="fa-solid fa-greater-than"></i></h2>
+
+                    <div class="service-container">
+                        <div class="service-box">
+                            <div class="ser-img-box">
+                                <img src="images/react-native.jpg" alt="React Native Development">
+                            </div>
+                            <div class="ser-left">
+                                <h3>React Native Development</h3>
+                                <h3>React Native Development</h3>
+                            </div>
+                            <div class="ser-right">
+                                <i class="fa-solid fa-arrow-right"></i>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+
+                        <div class="service-box">
+                            <div class="ser-img-box">
+                                <img src="images/react-nextjs.jpg" alt="React.js and Next.js Development">
+                            </div>
+                            <div class="ser-left">
+                                <h3>React.js and Next.js Development</h3>
+                                <h3>React.js and Next.js Development</h3>
+                            </div>
+                            <div class="ser-right">
+                                <i class="fa-solid fa-arrow-right"></i>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+
+                        <div class="service-box">
+                            <div class="ser-img-box">
+                                <img src="images/web-design.jpg" alt="Web Design">
+                            </div>
+                            <div class="ser-left">
+                                <h3>Web Design</h3>
+                                <h3>Web Design</h3>
+                            </div>
+                            <div class="ser-right">
+                                <i class="fa-solid fa-arrow-right"></i>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+
+                        <div class="service-box">
+                            <div class="ser-img-box">
+                                <img src="images/mobile-app.jpg" alt="Mobile App Development">
+                            </div>
+                            <div class="ser-left">
+                                <h3>Mobile App Development</h3>
+                                <h3>Mobile App Development</h3>
+                            </div>
+                            <div class="ser-right">
+                                <i class="fa-solid fa-arrow-right"></i>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+        </section>
+
+        <section class="contatus-section" id="contactsection">
+            <div class="contacts-container">
+                <div class="contactus-link">
+
+
+                    <a href="https://github.com/eddyyang1" target="_blank"><button> <i class="fa-brands fa-github"></i> <span>GitHub</span></button></a>
+                    <a href="#" target="_blank"><button><i class="fa-brands fa-instagram"></i> <span>Instagram</span></button></a>
+                    <a href="#" target="_blank"><button><i class="fa-brands fa-facebook"></i> <span>Facebook</span></button></a>
+                    <a href="#" target="_blank"><button><i class="fa-brands fa-youtube"></i> <span>YouTube</span></button></a>
+                    <a href="https://www.linkedin.com/in/allanonyancha" target="_blank"><button><i class="fa-brands fa-linkedin"></i> <span>LinkedIn</span></button></a>
+
+                </div>
+                <div class="contact-form-container">
+                    <h2 class="title_text">Contact Me</h2>
+                    <form method="POST">
+                        {% csrf_token %}
+                        <div class="input-box">
+                            <label for="id_name">Name</label>
+                            {{ form.name }}
+                        </div>
+                        <div class="input-box">
+                            <label for="id_phone">Phone</label>
+                            {{ form.phone }}
+                        </div>
+                        <div class="input-box">
+                            <label for="id_email">Email</label>
+                            {{ form.email }}
+                        </div>
+                        <div class="input-box">
+                            <label for="id_message">Message</label>
+                            {{ form.message }}
+                        </div>
+                        <div class="input-box">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-us-image-box">
+                    <!-- <img src="images/contact-us.png" alt=""> -->
+                </div>
+            </div>
+
+        </section>
+        <footer class="footer-section">
+            <p>&copy; All right reserved by Jh3ddy</p>
+        </footer>
+
+
+
+    </main>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://unpkg.com/lenis@1.1.9/dist/lenis.min.js"></script>
+    <script src="js/animationgap.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/smoothscroll.js"></script>
+</body>
+
+</html>
